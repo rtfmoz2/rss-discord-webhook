@@ -2,7 +2,7 @@ name: pullpush
 
 on:
   schedule:
-  - cron: "*/5 * * * *"
+  - cron: "* * * * *"
 
 jobs:
   pullpush:
